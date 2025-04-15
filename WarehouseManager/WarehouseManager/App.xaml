@@ -4,5 +4,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:WarehouseManager"
     StartupUri="View\MainWindow.xaml">
-    <Application.Resources />
+    <Application.Resources>
+
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Aqua" />
+
+        </Style>
+
+    </Application.Resources>
+
 </Application>

@@ -17,3 +17,4 @@ D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\MainManagerWindows.baml
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Products.g.cs
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Products.baml
+D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\ListProduct.g.cs

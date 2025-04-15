@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="View\Page\ListProduct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Page\Products.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -74,7 +78,10 @@
     <Compile Include="Command\ReplayCommand.cs" />
     <Compile Include="ViewModel\MainManagerViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
-    <Compile Include="ViewModel\Page\Product.cs" />
+    <Compile Include="ViewModel\Page\ProductViewModel.cs" />
+    <Compile Include="View\Page\ListProduct.xaml.cs">
+      <DependentUpon>ListProduct.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Page\Products.xaml.cs">
       <DependentUpon>Products.xaml</DependentUpon>
     </Compile>

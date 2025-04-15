@@ -12,6 +12,18 @@ namespace WarehouseManager.ViewModel.Page
 {
     public class Product : ViewModelBase
     {
+        private object _currentView;
+
+        public object CurrentView
+        {
+            get => _currentView;
+            set
+            {
+                _currentView = value;
+                OnPropertyChanged();
+            }
+        }
+        #region Color 
         private Brush Blue = (SolidColorBrush)new BrushConverter().ConvertFromString("#5e69ee");
         private Brush White = (SolidColorBrush)new BrushConverter().ConvertFromString("#F4F4FB");
 
@@ -24,13 +36,14 @@ namespace WarehouseManager.ViewModel.Page
         public Brush ListPTextColor { get { return _ListPTextColor;} set {_ListPTextColor = value; OnPropertyChanged(); } }
 
         private Brush _HistoryPTextColor ;
-        public Brush HistoryTextColor { get { return _HistoryPTextColor;} set { _HistoryPTextColor = value; OnPropertyChanged(); } }   
+        public Brush HistoryTextColor { get { return _HistoryPTextColor;} set { _HistoryPTextColor = value; OnPropertyChanged(); } }
+        #endregion
         public Product() 
         {
             command = new ReplayCommand(Comm, CanCommand);
            
             ListPTextColor = (SolidColorBrush)new BrushConverter().ConvertFromString("#6F7782");
-          
+            
             HistoryTextColor = (SolidColorBrush)new BrushConverter().ConvertFromString("#6F7782");
         }
 
@@ -51,6 +64,7 @@ namespace WarehouseManager.ViewModel.Page
                 case "ListP":
                     ListProduct = Blue;
                     ListPTextColor = Blue;
+                    //CurrentView = 
                     break;
                 case "History":
                     HistoryTextColor = Blue;
