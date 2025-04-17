@@ -18,11 +18,14 @@ namespace WarehouseManager.View.Page
     /// <summary>
     /// Логика взаимодействия для ListProduct.xaml
     /// </summary>
-    public partial class ListProduct : Page
+    public partial class ListProduct 
     {
         public ListProduct()
         {
             InitializeComponent();
+           
+
+
         }
     }
 }

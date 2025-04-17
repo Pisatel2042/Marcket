@@ -18,7 +18,7 @@ namespace WarehouseManager.ViewModel.Page
     /// <summary>
     /// Логика взаимодействия для Products.xaml
     /// </summary>
-    public partial class Products
+    public partial class Products 
     {
         public Products()
         {

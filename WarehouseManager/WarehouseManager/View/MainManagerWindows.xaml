@@ -3,13 +3,19 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
     xmlns:local="clr-namespace:WarehouseManager.View"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="MainManagerWindows"
     Width="1280"
     Height="692"
-    Background="#eae8f3"
+    Background="#dbdbdb"
     mc:Ignorable="d">
+    <Window.Resources>
+        <Style x:Key="ButtonMain" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#3B3B3B" />
+        </Style>
+    </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="15" />
@@ -37,17 +43,35 @@
             <Button
                 x:Name="MainButton"
                 Height="40"
+                Width="230"
                 Margin="5"
+                HorizontalAlignment="Left"
                 Background="{Binding ButtonMainBackground}"
                 Command="{Binding ChangingTheColor}"
                 CommandParameter="MainButton"
-                Content="Главная "
                 Foreground="{Binding ButtonMainForeground}">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="6" />
                     </Style>
                 </Button.Resources>
+
+                <StackPanel Orientation="Horizontal" Margin="0 0 125 0">
+                    <iconPacks:PackIconMaterial
+                        Width="20"
+                        Height="20"
+                        Margin="1"
+                            
+                      
+                        Foreground="#6D6D6D"
+                        Kind="Home" />
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Style="{StaticResource ButtonMain}"
+                        Text="Главная" />
+                </StackPanel>
+
             </Button>
             <Button
                 Height="40"
@@ -55,21 +79,32 @@
                 Background="{Binding ButtonItogiBackground}"
                 Command="{Binding ChangingTheColor}"
                 CommandParameter="ItogiButton"
-                Content="Итоги"
                 Foreground="{Binding ButtonItogiForeground}">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="5" />
                     </Style>
                 </Button.Resources>
-                
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconMaterial
+                        Width="20"
+                        Height="20"
+                        Margin="1"
+                        Padding="4"
+                        Foreground="#6D6D6D"
+                        Kind="Home" />
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Style="{StaticResource ButtonMain}"
+                        Text="Что то " />
+                </StackPanel>
             </Button>
             <Button
                 Height="40"
                 Margin="5"
                 Background="{Binding ButtonProductBackground}"
                 Command="{Binding ChangingTheColor}"
-                
                 CommandParameter="ProductButton"
                 Content="Товары на складе"
                 Foreground="{Binding ButtonProductForeground}">
@@ -80,7 +115,7 @@
                         <Setter Property="CornerRadius" Value="5" />
                     </Style>
                 </Button.Resources>
-               
+
             </Button>
             <Button
                 Height="40"
@@ -126,9 +161,12 @@
                     </Style>
                 </Button.Style>
             </Button>
-           
+
         </StackPanel>
 
-        <ContentControl Grid.Row="2" Grid.Column="3"  Content="{Binding CurrentView}"/>
+        <ContentControl
+            Grid.Row="2"
+            Grid.Column="3"
+            Content="{Binding CurrentView}" />
     </Grid>
 </Window>

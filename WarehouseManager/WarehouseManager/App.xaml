@@ -5,12 +5,29 @@
     xmlns:local="clr-namespace:WarehouseManager"
     StartupUri="View\MainWindow.xaml">
     <Application.Resources>
-
         <Style x:Key="RoundedButtonStyle" TargetType="Button">
-            <Setter Property="Background" Value="Aqua" />
 
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="5" Background="{TemplateBinding Background}" BorderBrush="Transparent" BorderThickness="0">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style>
-
+        <!--<ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary
+                    Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary
+                    Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary 
+                    Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
+                
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>-->   
     </Application.Resources>
-
+     
 </Application>
