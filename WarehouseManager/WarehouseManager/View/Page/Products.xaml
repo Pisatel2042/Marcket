@@ -32,7 +32,67 @@
             Grid.Column="1"
             Background="#FFFFFF"
             CornerRadius="3">
-            <StackPanel Background="#FFFFFF" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="25"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid  Grid.Column="1" Grid.ColumnSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="1" >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox x:Name="SearchTextBox" Width="200" Margin="0,0,5,0"
+  
+               />
+                            <Button Content="Search"  />
+
+                        </StackPanel>
+
+                        <ListBox x:Name="SearchResultsListBox" Margin="0,5,0,0" />
+
+
+                    </StackPanel>
+                    <Label Grid.Column="0" Content="Фильтр"/>
+                </Grid>
+              
+                <Grid Grid.Row="1" Grid.Column="1 " Grid.ColumnSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Vertical" Grid.Column="0">
+                        <Label Content=" Категория " FontSize="11"/>
+                        <ComboBox Margin="5"></ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Grid.Column="1">
+                        <Label Content="Производитель" FontSize="11"/>
+                        <ComboBox Margin="5"></ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Grid.Column="2">
+                        <Label Content="Рабоиник " FontSize="11"/>
+                        <ComboBox Margin="5"></ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Grid.Column="3">
+                        <Label Content="На дату " FontSize="11"/>
+                        <DatePicker Margin="5"></DatePicker>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+            
 
         </Border>
 

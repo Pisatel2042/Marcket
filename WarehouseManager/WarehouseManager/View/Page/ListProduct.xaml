@@ -5,17 +5,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:WarehouseManager.View.Page"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Width="584"
-    Height="840"
-    d:DesignHeight="840"
-    d:DesignWidth="584"
+    Width="900"
+    Height="900"
+    Background="#eae8f3"
     mc:Ignorable="d">
-    <!--  Background="#eae8f3"  -->
+
 
     <Grid>
         <DataGrid
             AutoGenerateColumns="False"
-            CanUserAddRows="False"
             IsReadOnly="True"
             ItemsSource="{Binding Products}">
             <DataGrid.Columns>

@@ -7,6 +7,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Media;
 using WarehouseManager.Command;
+using WarehouseManager.View.Page;
 using WarehouseManager.ViewModel.Page;
 
 namespace WarehouseManager.ViewModel
@@ -90,6 +91,7 @@ namespace WarehouseManager.ViewModel
                 case "MainButton":
                     ButtonMainBackground = Blue;
                     ButtonMainForeground = White;
+                    CurrentView = new MainPag();
                     break;
                 case "ItogiButton":
                     ButtonItogiBackground = Blue;

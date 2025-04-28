@@ -17,7 +17,7 @@ namespace WarehouseManager.View.Page
     /// <summary>
     /// Логика взаимодействия для MainPag.xaml
     /// </summary>
-    public partial class MainPag : Window
+    public partial class MainPag 
     {
         public MainPag()
         {
