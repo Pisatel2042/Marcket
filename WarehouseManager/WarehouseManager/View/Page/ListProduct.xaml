@@ -9,15 +9,15 @@
     Height="840"
     d:DesignHeight="840"
     d:DesignWidth="584"
-    Background="#eae8f3"
     mc:Ignorable="d">
+    <!--  Background="#eae8f3"  -->
 
     <Grid>
         <DataGrid
             AutoGenerateColumns="False"
             CanUserAddRows="False"
             IsReadOnly="True"
-            ItemsSource="{Binding product}">
+            ItemsSource="{Binding Products}">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Id}" Header="Id" />
                 <DataGridTextColumn Binding="{Binding Name}" Header="Продукт" />

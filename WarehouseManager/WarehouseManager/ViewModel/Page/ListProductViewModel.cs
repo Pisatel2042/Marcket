@@ -6,11 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
+using System.Windows;
 using WarehouseManager.DBContext;
+using WarehouseManager.Model;
 
 namespace WarehouseManager.ViewModel.Page
 {
-    public class ListProduct :ViewModelBase
+    public class ListProductViewModel :ViewModelBase
     {
         #region DataContext
         private int id;
@@ -48,13 +50,20 @@ namespace WarehouseManager.ViewModel.Page
 
 
         public ObservableCollection<Product> products { get; set; }
-        public ProductDBContext dBContext;
-        public ListProduct() 
+        public readonly ProductDBContext dBContext;
+        public ListProductViewModel()
         {
-            var connectionString = "Host=localhost;Database=MarcketDelivery;Username=postgres;Password=1111;";
+            var connectionString = "Server=DESKTOP-T5ODPOF;Database=Marcket ;Trusted_Connection=True;";
             dBContext = new ProductDBContext(connectionString);
-
+            LoadData();
+           
         }
+        public void LoadData()
+        {
+           
 
+            Products = dBContext.GetProduct();
+            
+        }
     }
 }

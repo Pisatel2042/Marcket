@@ -1,0 +1,15 @@
+﻿<Window
+    x:Class="WarehouseManager.View.Page.MainPag"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WarehouseManager.View.Page"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainPag"
+    Width="584"
+    Height="840"
+    d:DesignHeight="840"
+    d:DesignWidth="584"
+    mc:Ignorable="d">
+    <Grid />
+</Window>

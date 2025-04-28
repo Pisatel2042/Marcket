@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 
 using System.Linq;
@@ -18,5 +19,9 @@ namespace WarehouseManager.Model
         public int CategoryId { get; set; }
         public decimal Weight {  get; set; }
         public int EmployeeId {  get; set; }
+        public bool isFamilyFriendly { get; set; }
+        public long gtin8 { get; set; }    
+        public string manufactur {  get; set; } 
+        public int reviewID { get; set; }    
     }
 }

@@ -23,8 +23,8 @@ namespace WarehouseManager.ViewModel.Page
         public Products()
         {
             InitializeComponent();
-            Product r= new Product();
-            DataContext = r;
+            ProductViewModel r = new ProductViewModel();
+              DataContext = r;
         }
     }
 }

@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows.Media;
 using WarehouseManager.Command;
+using WarehouseManager.View.Page;
 
 namespace WarehouseManager.ViewModel.Page
 {
-    public class Product : ViewModelBase
+    internal class ProductViewModel : ViewModelBase
     {
         private object _currentView;
 
@@ -27,23 +27,23 @@ namespace WarehouseManager.ViewModel.Page
         private Brush Blue = (SolidColorBrush)new BrushConverter().ConvertFromString("#5e69ee");
         private Brush White = (SolidColorBrush)new BrushConverter().ConvertFromString("#F4F4FB");
 
-        private Brush _listProduct; 
-        public Brush ListProduct { get { return _listProduct; } set { _listProduct =  value; OnPropertyChanged(); } }
+        private Brush _listProduct;
+        public Brush ListProduct { get { return _listProduct; } set { _listProduct = value; OnPropertyChanged(); } }
         private Brush _History;
         public Brush History { get { return _History; } set { _History = value; OnPropertyChanged(); } }
 
-        private Brush _ListPTextColor ;
-        public Brush ListPTextColor { get { return _ListPTextColor;} set {_ListPTextColor = value; OnPropertyChanged(); } }
+        private Brush _ListPTextColor;
+        public Brush ListPTextColor { get { return _ListPTextColor; } set { _ListPTextColor = value; OnPropertyChanged(); } }
 
-        private Brush _HistoryPTextColor ;
-        public Brush HistoryTextColor { get { return _HistoryPTextColor;} set { _HistoryPTextColor = value; OnPropertyChanged(); } }
+        private Brush _HistoryPTextColor;
+        public Brush HistoryTextColor { get { return _HistoryPTextColor; } set { _HistoryPTextColor = value; OnPropertyChanged(); } }
         #endregion
-        public Product() 
+        public ProductViewModel()
         {
             command = new ReplayCommand(Comm, CanCommand);
-           
+
             ListPTextColor = (SolidColorBrush)new BrushConverter().ConvertFromString("#6F7782");
-            
+
             HistoryTextColor = (SolidColorBrush)new BrushConverter().ConvertFromString("#6F7782");
         }
 
@@ -64,6 +64,7 @@ namespace WarehouseManager.ViewModel.Page
                 case "ListP":
                     ListProduct = Blue;
                     ListPTextColor = Blue;
+                    CurrentView = new ListProduct();
                     //CurrentView = 
                     break;
                 case "History":
@@ -75,6 +76,6 @@ namespace WarehouseManager.ViewModel.Page
 
         }
 
-        public ICommand command {  get; set; }
+        public ICommand command { get; set; }
     }
 }
