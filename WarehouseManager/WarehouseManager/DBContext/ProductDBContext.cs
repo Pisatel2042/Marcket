@@ -52,6 +52,86 @@ namespace WarehouseManager.DBContext
                 return CollectionProduct;
             }
         } 
-      
+        public ObservableCollection<CategoryProduct> GetСategory()
+        {
+            var CollectionCategory = new ObservableCollection<CategoryProduct>();
+            using (SqlConnection conn = new SqlConnection(ConnectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new  SqlCommand("SELECT * FROM Categories", conn)) 
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            CollectionCategory.Add(new CategoryProduct
+                            {
+                                Id = reader.GetInt32(0),
+                                Name = reader.GetString(1),
+                            });
+                        }
+                    }
+                } 
+                return CollectionCategory;
+            }
+        }
+
+        public ObservableCollection<Employees> GetEmployees()
+        {
+            var CollectionEmployees = new ObservableCollection<Employees>();
+            using (SqlConnection conn = new SqlConnection(ConnectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand("Select * from Employees ", conn))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            CollectionEmployees.Add(new Employees
+                            {
+                                id = reader.GetInt32(0),
+                                FirstName = reader.GetString(1),
+                                Name = reader.GetString(2),
+                                LastName = reader.GetString(3),
+                                Email = reader.GetString(4),
+                                PhoneNumber = reader.GetString(5),
+                                PositionId = reader.GetInt32(6),
+                                HireDate = reader.GetDateTime(7),
+                                Salary = reader.GetDecimal(8),
+                                IsActive = reader.GetBoolean(9),
+                                IsCourier = reader.GetBoolean(10),
+
+                            });
+                        }
+                    }
+                }
+                return CollectionEmployees;
+            }
+        }
+        public ObservableCollection<Manufactur> GetManufactur()
+        {
+                var ListManufactur = new ObservableCollection<Manufactur>();
+            using (SqlConnection conn = new SqlConnection(ConnectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand("select Manufactur from Products group by Manufactur ", conn))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            ListManufactur.Add(new Manufactur
+                            {
+
+                                name_manufactur = reader.GetString(0),
+                            });
+                        }
+                    }
+                }
+                return ListManufactur;
+                
+            }
+        }
     }
 }

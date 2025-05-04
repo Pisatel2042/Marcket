@@ -25,6 +25,7 @@ namespace WarehouseManager.ViewModel.Page
             InitializeComponent();
             ProductViewModel r = new ProductViewModel();
               DataContext = r;
+           
         }
     }
 }

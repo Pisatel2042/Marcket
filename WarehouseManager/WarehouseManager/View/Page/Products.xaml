@@ -34,28 +34,29 @@
             CornerRadius="3">
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="25"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="25"></ColumnDefinition>
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="25" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                
-                    <RowDefinition Height="25"></RowDefinition>
-                    <RowDefinition Height="*"></RowDefinition>
+
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <Grid  Grid.Column="1" Grid.ColumnSpan="2">
+                <Grid Grid.Column="1" Grid.ColumnSpan="2">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Column="1" >
+                    <StackPanel Grid.Column="1">
                         <StackPanel Orientation="Horizontal">
-                            <TextBox x:Name="SearchTextBox" Width="200" Margin="0,0,5,0"
-  
-               />
-                            <Button Content="Search"  />
+                            <TextBox
+                                x:Name="SearchTextBox"
+                                Width="200"
+                                Margin="0,0,5,0" />
+                            <Button Content="Search" />
 
                         </StackPanel>
 
@@ -63,36 +64,48 @@
 
 
                     </StackPanel>
-                    <Label Grid.Column="0" Content="Фильтр"/>
+                    <Label Grid.Column="0" Content="Фильтр" />
                 </Grid>
-              
-                <Grid Grid.Row="1" Grid.Column="1 " Grid.ColumnSpan="2">
+
+                <Grid
+                    Grid.Row="1"
+                    Grid.Column="1 "
+                    Grid.ColumnSpan="2">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+
                     </Grid.ColumnDefinitions>
-                    <StackPanel Orientation="Vertical" Grid.Column="0">
-                        <Label Content=" Категория " FontSize="11"/>
-                        <ComboBox Margin="5"></ComboBox>
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <Label Content=" Категория " FontSize="11" />
+                        <ComboBox
+                            Margin="5"
+                            DisplayMemberPath="Name"
+                            ItemsSource="{Binding categoryProducts}"
+                            SelectedItem="{Binding selectCategory, Mode=TwoWay}"
+                            SelectedValuePath="Id" />
                     </StackPanel>
-                    <StackPanel Orientation="Vertical" Grid.Column="1">
-                        <Label Content="Производитель" FontSize="11"/>
-                        <ComboBox Margin="5"></ComboBox>
+                    <StackPanel Grid.Column="1" Orientation="Vertical">
+                        <Label Content="Производитель" FontSize="11" />
+                        <ComboBox
+                            x:Name="ProductByCombobox"
+                            Margin="5"
+                            DisplayMemberPath="name_manufactur"
+                            ItemsSource="{Binding manufactur}" />
                     </StackPanel>
-                    <StackPanel Orientation="Vertical" Grid.Column="2">
-                        <Label Content="Рабоиник " FontSize="11"/>
-                        <ComboBox Margin="5"></ComboBox>
+                    <StackPanel Grid.Column="2" Orientation="Vertical">
+                        <Label Content="Рабоиник " FontSize="11" />
+                        <ComboBox Margin="5" ItemsSource="{Binding EmpList}" />
                     </StackPanel>
-                    <StackPanel Orientation="Vertical" Grid.Column="3">
-                        <Label Content="На дату " FontSize="11"/>
-                        <DatePicker Margin="5"></DatePicker>
+                    <StackPanel Grid.Column="3" Orientation="Vertical">
+                        <Label Content="На дату " FontSize="11" />
+                        <DatePicker Margin="5" />
                     </StackPanel>
                 </Grid>
             </Grid>
-            
+
 
         </Border>
 
@@ -140,7 +153,6 @@
             </StackPanel>
             <StackPanel Grid.Column="1" VerticalAlignment="Center">
                 <Button
-                   
                     HorizontalAlignment="Right"
                     Background="#FFFFFF"
                     Foreground="Black"
@@ -155,9 +167,8 @@
                             Foreground="#6D6D6D"
                             Kind="Sort" />
                         <TextBlock
-                            
-                            FontSize="14"
                             VerticalAlignment="Center"
+                            FontSize="14"
                             Style="{StaticResource ButtonMain}"
                             Text="Сортировать" />
                     </StackPanel>
@@ -168,7 +179,7 @@
 
 
         </Grid>
-        <ContentControl 
+        <ContentControl
             Grid.Row="2"
             Grid.Column="1"
             Content="{Binding CurrentView}" />

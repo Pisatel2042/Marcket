@@ -257,6 +257,9 @@
     </Compile>
     <Compile Include="Command\ReplayCommand.cs" />
     <Compile Include="DBContext\ProductDBContext.cs" />
+    <Compile Include="Model\CategoryProduct.cs" />
+    <Compile Include="Model\Employees.cs" />
+    <Compile Include="Model\Manufactur.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="ViewModel\MainManagerViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
