@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BotCurier")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e66a27a05890b7aeb65d8b87413f01e676facf3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d86149de6effae762b486f2e4d64dcd932f3c25")]
 [assembly: System.Reflection.AssemblyProductAttribute("BotCurier")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BotCurier")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

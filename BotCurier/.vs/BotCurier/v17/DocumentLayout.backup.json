@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{72A3ABBB-46A3-4A94-B535-007820F7FB5C}|BotCurier\\BotCurier.csproj|d:\\project_programming\\marcket\\botcurier\\botcurier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A3ABBB-46A3-4A94-B535-007820F7FB5C}|BotCurier\\BotCurier.csproj|solutionrelative:botcurier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A3ABBB-46A3-4A94-B535-007820F7FB5C}|BotCurier\\BotCurier.csproj|d:\\project_programming\\marcket\\botcurier\\botcurier\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A3ABBB-46A3-4A94-B535-007820F7FB5C}|BotCurier\\BotCurier.csproj|solutionrelative:botcurier\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A3ABBB-46A3-4A94-B535-007820F7FB5C}|BotCurier\\BotCurier.csproj|d:\\project_programming\\marcket\\botcurier\\botcurier\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A3ABBB-46A3-4A94-B535-007820F7FB5C}|BotCurier\\BotCurier.csproj|solutionrelative:botcurier\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A3ABBB-46A3-4A94-B535-007820F7FB5C}|BotCurier\\BotCurier.csproj|d:\\project_programming\\marcket\\botcurier\\botcurier\\controllers\\istartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A3ABBB-46A3-4A94-B535-007820F7FB5C}|BotCurier\\BotCurier.csproj|solutionrelative:botcurier\\controllers\\istartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A3ABBB-46A3-4A94-B535-007820F7FB5C}|BotCurier\\BotCurier.csproj|d:\\project_programming\\marcket\\botcurier\\botcurier\\botcurier.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72A3ABBB-46A3-4A94-B535-007820F7FB5C}|BotCurier\\BotCurier.csproj|solutionrelative:botcurier\\botcurier.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +38,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStartCommandHandler.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\Controllers\\IStartCommandHandler.cs",
+              "RelativeDocumentMoniker": "BotCurier\\Controllers\\IStartCommandHandler.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\Controllers\\IStartCommandHandler.cs",
+              "RelativeToolTip": "BotCurier\\Controllers\\IStartCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:14:40.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BotCurier",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\BotCurier.csproj",
+              "RelativeDocumentMoniker": "BotCurier\\BotCurier.csproj",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\BotCurier.csproj",
+              "RelativeToolTip": "BotCurier\\BotCurier.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-12T14:12:56.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDBContext.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\Data\\UserDBContext.cs",
+              "RelativeDocumentMoniker": "BotCurier\\Data\\UserDBContext.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\Data\\UserDBContext.cs",
+              "RelativeToolTip": "BotCurier\\Data\\UserDBContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:56:31.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\Model\\User.cs",
+              "RelativeDocumentMoniker": "BotCurier\\Model\\User.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\Model\\User.cs",
+              "RelativeToolTip": "BotCurier\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:45:37.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\Program.cs",
               "RelativeDocumentMoniker": "BotCurier\\Program.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\Program.cs*",
-              "RelativeToolTip": "BotCurier\\Program.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwDUAAAASAAAAAAAAAA==",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\BotCurier\\BotCurier\\Program.cs",
+              "RelativeToolTip": "BotCurier\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwDYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T17:57:25.89Z",
               "EditorCaption": ""

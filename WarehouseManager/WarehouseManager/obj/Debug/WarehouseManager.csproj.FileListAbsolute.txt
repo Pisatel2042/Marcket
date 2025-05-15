@@ -240,3 +240,7 @@ D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\Wareh
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\Warehous.21FBC53C.Up2Date
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\WarehouseManager.exe
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\WarehouseManager.pdb
+D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Acceptance.g.cs
+D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Finance.g.cs
+D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Acceptance.baml
+D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Finance.baml

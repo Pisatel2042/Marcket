@@ -93,9 +93,10 @@ namespace WarehouseManager.ViewModel
                     ButtonMainForeground = White;
                     CurrentView = new MainPag();
                     break;
-                case "ItogiButton":
+                case "FinanceButton":
                     ButtonItogiBackground = Blue;
                     ButtonItogiForeground = White;
+                    CurrentView = new Finance();
                     break;
                 case "ProductButton":
                     CurrentView = new Products();

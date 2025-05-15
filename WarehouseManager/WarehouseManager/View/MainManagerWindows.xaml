@@ -42,8 +42,8 @@
             <Label Padding="4" Content="Меню" />
             <Button
                 x:Name="MainButton"
-                Height="40"
                 Width="230"
+                Height="40"
                 Margin="5"
                 HorizontalAlignment="Left"
                 Background="{Binding ButtonMainBackground}"
@@ -56,13 +56,11 @@
                     </Style>
                 </Button.Resources>
 
-                <StackPanel Orientation="Horizontal" Margin="0 0 125 0">
+                <StackPanel Margin="0,0,125,0" Orientation="Horizontal">
                     <iconPacks:PackIconMaterial
                         Width="20"
                         Height="20"
                         Margin="1"
-                            
-                      
                         Foreground="#6D6D6D"
                         Kind="Home" />
                     <TextBlock
@@ -74,12 +72,12 @@
 
             </Button>
             <Button
+                x:Name="FinanceButton"
                 Height="40"
                 Margin="5"
-                
                 Background="{Binding ButtonItogiBackground}"
                 Command="{Binding ChangingTheColor}"
-                CommandParameter="ItogiButton"
+                CommandParameter="FinanceButton"
                 Foreground="{Binding ButtonItogiForeground}">
                 <Button.Resources>
                     <Style TargetType="Border">
@@ -107,7 +105,6 @@
                 Background="{Binding ButtonProductBackground}"
                 Command="{Binding ChangingTheColor}"
                 CommandParameter="ProductButton"
-               
                 Foreground="{Binding ButtonProductForeground}">
                 <Button.Resources>
                     <Style TargetType="Border">
@@ -116,17 +113,17 @@
                 </Button.Resources>
                 <StackPanel Orientation="Horizontal">
                     <iconPacks:PackIconMaterial
-         Width="20"
-         Height="20"
-         Margin="1"
-         Padding="4"
-         Foreground="#6D6D6D"
-         Kind="Warehouse" />
+                        Width="20"
+                        Height="20"
+                        Margin="1"
+                        Padding="4"
+                        Foreground="#6D6D6D"
+                        Kind="Warehouse" />
                     <TextBlock
-         VerticalAlignment="Center"
-         FontSize="14"
-         Style="{StaticResource ButtonMain}"
-         Text="Склад" />
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Style="{StaticResource ButtonMain}"
+                        Text="Склад" />
                 </StackPanel>
             </Button>
             <Button
@@ -135,7 +132,6 @@
                 Background="{Binding ButtonProductBackground}"
                 Command="{Binding ChangingTheColor}"
                 CommandParameter="ProductButton"
-               
                 Foreground="{Binding ButtonProductForeground}">
 
 
@@ -152,17 +148,17 @@
                 </Button.Style>
                 <StackPanel Orientation="Horizontal">
                     <iconPacks:PackIconMaterial
-         Width="20"
-         Height="20"
-         Margin="1"
-         Padding="4"
-         Foreground="#6D6D6D"
-         Kind="Forklift" />
+                        Width="20"
+                        Height="20"
+                        Margin="1"
+                        Padding="4"
+                        Foreground="#6D6D6D"
+                        Kind="Forklift" />
                     <TextBlock
-         VerticalAlignment="Center"
-         FontSize="14"
-         Style="{StaticResource ButtonMain}"
-         Text="Приемка " />
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Style="{StaticResource ButtonMain}"
+                        Text="Приемка " />
                 </StackPanel>
             </Button>
             <Button
@@ -192,7 +188,8 @@
 
         <ContentControl
             Grid.Row="2"
+            
             Grid.Column="3"
-            Content="{Binding CurrentView}" />
+            Content="{Binding CurrentView}" Margin="0,0,0,-351"  />
     </Grid>
 </Window>

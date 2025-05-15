@@ -23,7 +23,7 @@ namespace WarehouseManager.DBContext
             var CollectionProduct = new  ObservableCollection<Product>();
             using (SqlConnection conn = new SqlConnection(ConnectionString))
             { conn.Open();
-                using (SqlCommand cmd = new SqlCommand("select * from   products ", conn))
+                using (SqlCommand cmd = new SqlCommand("select [dbo].[Products].[Id],[dbo].[Products].[Name],[dbo].[Products].[Price],[dbo].[Products].[Image],[Description],[StockQuantity], c.Name,[Weight],[EmployeeId],[IsFamilyFriendly],[Gtin8],[Manufactur],[ReviewId],[ShelfLifeDate]  from [dbo].[Products], [dbo].[Categories] c where [CategoryId] = c.[Id]", conn))
                 {
                     SqlDataReader reader = cmd.ExecuteReader();
 
@@ -37,7 +37,7 @@ namespace WarehouseManager.DBContext
                                 image = reader.IsDBNull(3) ? null : reader.GetString(3),
                                 Description = reader.IsDBNull(4) ? null : reader.GetString(4),
                                 StockQuantity = reader.GetInt32(5),
-                                CategoryId = reader.GetInt32(6),
+                                CategoryId = reader.GetString(6),
                                 Weight = reader.GetDecimal(7),
                                 EmployeeId = reader.IsDBNull(8) ? 0 : reader.GetInt32(8),
                                 isFamilyFriendly = reader.IsDBNull(9) ? false : reader.GetBoolean(9),
@@ -133,5 +133,18 @@ namespace WarehouseManager.DBContext
                 
             }
         }
+
+        //public ObservableCollection<Product> FilterProduct(string category, string manufactur, string CategoryId)
+        //{
+        //    //using (SqlConnection conn = new SqlConnection(ConnectionString))
+        //    //{
+        //    //    conn.Open();
+        //    //    using (SqlCommand cmd = new SqlCommand("",conn))
+        //    //    {
+        //    //        cmd.CommandType = System.Data.CommandType.Text;
+
+        //    //    }
+        //    //}
+        //}
     }
 }

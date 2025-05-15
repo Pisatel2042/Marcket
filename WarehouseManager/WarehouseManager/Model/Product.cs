@@ -16,7 +16,7 @@ namespace WarehouseManager.Model
         public string image { get; set; }
         public string Description { get; set; }
         public int  StockQuantity { get; set; } 
-        public int CategoryId { get; set; }
+        public string CategoryId { get; set; }
         public decimal Weight {  get; set; }
         public int EmployeeId {  get; set; }
         public bool isFamilyFriendly { get; set; }

@@ -231,6 +231,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="View\Page\Acceptance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Page\Finance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Page\ListProduct.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -265,6 +273,13 @@
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\Page\ListProductViewModel.cs" />
     <Compile Include="ViewModel\Page\ProductViewModel.cs" />
+    <Compile Include="ViewModel\SalesBarChartViewModel.cs" />
+    <Compile Include="View\Page\Acceptance.xaml.cs">
+      <DependentUpon>Acceptance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Page\Finance.xaml.cs">
+      <DependentUpon>Finance.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Page\ListProduct.xaml.cs">
       <DependentUpon>ListProduct.xaml</DependentUpon>
     </Compile>
@@ -310,6 +325,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Grafic\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
