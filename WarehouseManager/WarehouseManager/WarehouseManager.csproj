@@ -264,13 +264,16 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Command\ReplayCommand.cs" />
+    <Compile Include="DBContext\FinanceDBContext.cs" />
     <Compile Include="DBContext\ProductDBContext.cs" />
     <Compile Include="Model\CategoryProduct.cs" />
     <Compile Include="Model\Employees.cs" />
     <Compile Include="Model\Manufactur.cs" />
     <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductDeliveryHistory.cs" />
     <Compile Include="ViewModel\MainManagerViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\Page\FinanceViewModel.cs" />
     <Compile Include="ViewModel\Page\ListProductViewModel.cs" />
     <Compile Include="ViewModel\Page\ProductViewModel.cs" />
     <Compile Include="ViewModel\SalesBarChartViewModel.cs" />
@@ -325,8 +328,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Grafic\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

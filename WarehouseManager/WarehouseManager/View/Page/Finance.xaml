@@ -52,7 +52,7 @@
                         CornerRadius="5"
                         DockPanel.Dock="Top">
                         <StackPanel Orientation="Vertical">
-                            <Label Content=" 241155" />
+                            <Label  Content="{Binding Revenue}" />
                             <Label Content="Выручка" />
                         </StackPanel>
                     </Border>
@@ -69,7 +69,7 @@
                         CornerRadius="5"
                         DockPanel.Dock="Top">
                         <StackPanel Orientation="Vertical">
-                            <Label Content=" 241155" />
+                            <Label Content="{Binding DeliveryCount}" />
                             <Label Content="Кол-во Доставок" />
                         </StackPanel>
                     </Border>
@@ -86,8 +86,8 @@
                         CornerRadius="5"
                         DockPanel.Dock="Top">
                         <StackPanel Orientation="Vertical">
-                            <Label Content=" 241155" />
-                            <Label Content="Выплота курьерам" />
+                            <Label Content="12121" />
+                            <Label Content="Выплата курьерам" />
                         </StackPanel>
                     </Border>
                 </DockPanel>
