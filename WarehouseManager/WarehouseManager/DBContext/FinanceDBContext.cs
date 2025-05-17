@@ -24,7 +24,7 @@ namespace WarehouseManager.DBContext
             using (SqlConnection conn = new SqlConnection(ConnectionSting))
             {
                 conn.Open();
-                using (SqlCommand cmd = new SqlCommand("", conn))
+                using (SqlCommand cmd = new SqlCommand("ups_GetProductDeliveryHistory", conn))
                 {
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
@@ -54,13 +54,15 @@ namespace WarehouseManager.DBContext
 
         }
 
-       public string GetRevenue()
+
+        
+       public string GetRevenue() //выручка
         {
             string revenue = string.Empty;  ; 
             using (SqlConnection conn = new SqlConnection(ConnectionSting))
             {
                 conn.Open();
-                using (SqlCommand cmd = new SqlCommand("", conn))
+                using (SqlCommand cmd = new SqlCommand("usp_GetOrdersSumByDate", conn))
                 {
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
@@ -81,7 +83,7 @@ namespace WarehouseManager.DBContext
             using (SqlConnection conn = new SqlConnection(ConnectionSting))
             {
                 conn.Open();
-                using (SqlCommand cmd = new SqlCommand("", conn))
+                using (SqlCommand cmd = new SqlCommand("sp_GetTodayDeliveryCount", conn))
                 {
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
