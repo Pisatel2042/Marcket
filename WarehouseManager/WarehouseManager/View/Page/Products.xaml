@@ -5,6 +5,7 @@
     x:Class="WarehouseManager.ViewModel.Page.Products"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
     xmlns:local="clr-namespace:WarehouseManager.ViewModel.Page"
@@ -91,7 +92,9 @@
                                 DisplayMemberPath="Name"
                                 ItemsSource="{Binding categoryProducts}"
                                 SelectedItem="{Binding selectCategory, Mode=TwoWay}"
-                                SelectedValuePath="Id" />
+                                SelectedValuePath="Id">
+                                
+                            </ComboBox>
 
                         </GroupBox>
                     </StackPanel>

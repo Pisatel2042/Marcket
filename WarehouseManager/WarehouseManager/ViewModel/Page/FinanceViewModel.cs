@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LiveCharts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,19 @@ namespace WarehouseManager.ViewModel.Page
 {
     public class FinanceViewModel : ViewModelBase
     {
+
+        #region Axes
+        private ChartValues<int> _PurchaseValues;
+        public ChartValues<int> PurchaseValues { get { return _PurchaseValues; } set { _PurchaseValues = value; OnPropertyChanged(); } }
+
+        private string[] _HoursLabels;
+        public string[] HoursLabels { get { return _HoursLabels; } set { _HoursLabels = value; OnPropertyChanged(); } }
+
+        private Func<double, string> _YFormatter;
+        public Func<double, string> YFormatter { get { return _YFormatter; } set { _YFormatter = value; OnPropertyChanged(); } }
+
+        #endregion
+
 
         private string _Revenue;
         public string Revenue { get{ return _Revenue; } set { _Revenue = value; OnPropertyChanged(); } }
@@ -23,11 +37,29 @@ namespace WarehouseManager.ViewModel.Page
             var connectionString = "Server=DESKTOP-T5ODPOF;Database=Marcket ;Trusted_Connection=True;";
             FinanceDBContext = new FinanceDBContext(connectionString);
 
+
+
+
+
+
+
+
             Revenue = FinanceDBContext.GetRevenue();
-            DeliveryCount = FinanceDBContext.GetTodaysDeliveryCount();
+            DeliveryCount = FinanceDBContext.GetTodaysDeliveryCount().ToString();
+        }
 
 
+       public void Chart()
+        {
 
+            //var purchasesData = ;
+            PurchaseValues = new ChartValues<int>(purchasesData);
+            YFormatter = value => value.ToString("N0");
+            HoursLabels = new string[24];
+            for (int i = 0; i < 24; i++)
+            {
+                HoursLabels[i] = $"{i}";
+            }
         }
     }
 }

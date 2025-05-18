@@ -68,7 +68,14 @@ namespace WarehouseManager.DBContext
                     {
                         while (reader.Read())
                         {
-                            revenue = reader.GetString(0);
+                            if (!reader.IsDBNull(0)) 
+                            {
+                                revenue = reader.GetString(0);
+                            }
+                            else
+                            {
+                                revenue = "0"; 
+                            }
 
                         }
                     }
@@ -77,9 +84,9 @@ namespace WarehouseManager.DBContext
                 return revenue;
             }
         }
-        public string GetTodaysDeliveryCount()
+        public int GetTodaysDeliveryCount()
         {
-            string DeliveryCoun = string.Empty; ;
+            int DeliveryCoun = 0 ;
             using (SqlConnection conn = new SqlConnection(ConnectionSting))
             {
                 conn.Open();
@@ -89,7 +96,7 @@ namespace WarehouseManager.DBContext
                     {
                         while (reader.Read())
                         {
-                            DeliveryCoun = reader.GetString(0);
+                            DeliveryCoun = reader.GetInt32(0);
 
                         }
                     }

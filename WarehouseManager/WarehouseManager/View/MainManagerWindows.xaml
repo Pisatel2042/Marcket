@@ -11,14 +11,7 @@
     Height="692"
     Background="#e0e1dd"
     mc:Ignorable="d">
-    <Window.Resources>
-        <Style x:Key="ButtonMain" TargetType="TextBlock">
-            <Setter Property="Foreground" Value="#0d1b2a" />
-        </Style>
-        <Style x:Key="IconnMain" TargetType="iconPacks:PackIconMaterial">
-            <Setter Property="Foreground" Value="#0d1b2a" />
-        </Style>
-    </Window.Resources>
+    <Window.Resources />
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="15" />
@@ -59,12 +52,12 @@
                         Width="20"
                         Height="20"
                         Margin="1"
-                        Kind="Home"
-                        Style="{StaticResource IconnMain}" />
+                        Foreground="{Binding ButtonMainForeground}"
+                        Kind="Home" />
                     <TextBlock
                         VerticalAlignment="Center"
                         FontSize="14"
-                        Style="{StaticResource ButtonMain}"
+                        Foreground="{Binding ButtonMainForeground}"
                         Text="Главная" />
                 </StackPanel>
 
@@ -85,12 +78,12 @@
                         Height="20"
                         Margin="1"
                         Padding="4"
-                        Kind="Finance"
-                        Style="{StaticResource IconnMain}" />
+                        Foreground="{Binding ButtonItogiForeground}"
+                        Kind="Finance" />
                     <TextBlock
                         VerticalAlignment="Center"
                         FontSize="14"
-                        Style="{StaticResource ButtonMain}"
+                        Foreground="{Binding ButtonItogiForeground}"
                         Text="Финансы " />
                 </StackPanel>
             </Button>
@@ -109,12 +102,12 @@
                         Height="20"
                         Margin="1"
                         Padding="4"
-                        Kind="Warehouse"
-                        Style="{StaticResource IconnMain}" />
+                        Foreground="{Binding ButtonProductForeground}"
+                        Kind="Warehouse" />
                     <TextBlock
                         VerticalAlignment="Center"
                         FontSize="14"
-                        Style="{StaticResource ButtonMain}"
+                        Foreground="{Binding ButtonProductForeground}"
                         Text="Склад" />
                 </StackPanel>
             </Button>
@@ -123,7 +116,7 @@
                 Margin="5"
                 Background="{Binding ButtonProductBackground}"
                 Command="{Binding ChangingTheColor}"
-                CommandParameter="ProductButton"
+                CommandParameter="PriemButton"
                 Foreground="{Binding ButtonProductForeground}"
                 Style="{StaticResource MainButtonStyle}">
 
@@ -134,12 +127,12 @@
                         Height="20"
                         Margin="1"
                         Padding="4"
-                        Kind="Forklift"
-                        Style="{StaticResource IconnMain}" />
+                        Foreground="{Binding ButtonPriemForeground}"
+                        Kind="Forklift" />
                     <TextBlock
                         VerticalAlignment="Center"
                         FontSize="14"
-                        Style="{StaticResource ButtonMain}"
+                        Foreground="{Binding ButtonPriemForeground}"
                         Text="Приемка " />
                 </StackPanel>
             </Button>
@@ -150,21 +143,8 @@
                 Command="{Binding ChangingTheColor}"
                 CommandParameter="ProductButton"
                 Content="История Заказов"
-                Foreground="{Binding ButtonProductForeground}">
-
-
-                <Button.Resources>
-                    <Style TargetType="Border">
-                        <Setter Property="CornerRadius" Value="5" />
-                    </Style>
-                </Button.Resources>
-                <Button.Style>
-                    <Style TargetType="Button">
-                        <Setter Property="Background" Value="White" />
-                        <Setter Property="Foreground" Value="#5e69ee" />
-                    </Style>
-                </Button.Style>
-            </Button>
+                Foreground="{Binding ButtonProductForeground}"
+                Style="{StaticResource MainButtonStyle}" />
 
         </StackPanel>
 

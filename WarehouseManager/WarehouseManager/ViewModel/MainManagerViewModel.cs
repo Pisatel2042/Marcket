@@ -16,7 +16,7 @@ namespace WarehouseManager.ViewModel
     {
 
         private Brush Blue = (SolidColorBrush)new BrushConverter().ConvertFromString("#415a77");
-        private Brush White = (SolidColorBrush)new BrushConverter().ConvertFromString("#778da9");
+        private Brush White = (SolidColorBrush)new BrushConverter().ConvertFromString("#f4f4fb");
         // Main
         private Brush _buttonMainBackground;
         public Brush ButtonMainBackground{get { return _buttonMainBackground; }set{ _buttonMainBackground = value;OnPropertyChanged();}}
@@ -33,10 +33,17 @@ namespace WarehouseManager.ViewModel
         
         // Prodcut
         private Brush _buttonProductBackground;
-        public Brush ButtonProductBackground { get { return _buttonItogiBackground; } set { _buttonItogiBackground = value; OnPropertyChanged(); } }
+        public Brush ButtonProductBackground { get { return _buttonProductBackground; } set { _buttonProductBackground = value; OnPropertyChanged(); } }
 
         private Brush _buttonProductForeground;
         public Brush ButtonProductForeground { get { return _buttonProductForeground; } set { _buttonProductForeground = value; OnPropertyChanged(); } }
+        
+        // Приемка
+        private Brush _buttonPriemBackground;
+        public Brush ButtonPriemBackground { get { return _buttonPriemBackground; } set { _buttonPriemBackground = value; OnPropertyChanged(); } }
+
+        private Brush _buttonPriomForeground;
+        public Brush ButtonPriemForeground { get { return _buttonPriomForeground; } set { _buttonPriomForeground = value; OnPropertyChanged(); } }
 
 
         private object _currentView;
@@ -61,6 +68,8 @@ namespace WarehouseManager.ViewModel
             ButtonProductForeground = Blue;
             ButtonProductBackground = White;
 
+            ButtonPriemForeground = Blue;
+            ButtonPriemBackground = White;
 
             ChangingTheColor = new ReplayCommand(ChangeColor, CanChangeColor);
         }
@@ -86,6 +95,9 @@ namespace WarehouseManager.ViewModel
             ButtonProductForeground = Blue;
             ButtonProductBackground = White;
 
+            ButtonPriemForeground = Blue;
+            ButtonPriemBackground = White;
+
             switch (buttonName)
             {
                 case "MainButton":
@@ -102,6 +114,10 @@ namespace WarehouseManager.ViewModel
                     CurrentView = new Products();
                     ButtonProductBackground = Blue;
                     ButtonProductForeground = White;
+                    break;
+                case "PriemButton":
+                    ButtonPriemBackground = Blue;
+                    ButtonPriemForeground = White;
                     break;
             }
             

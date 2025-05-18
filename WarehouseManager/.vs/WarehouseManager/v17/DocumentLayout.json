@@ -3,68 +3,8 @@
   "WorkspaceRootPath": "D:\\Project_Programming\\Marcket\\WarehouseManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|d:\\project_programming\\marcket\\warehousemanager\\warehousemanager\\dbcontext\\financedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\dbcontext\\financedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|d:\\project_programming\\marcket\\warehousemanager\\warehousemanager\\model\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\model\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\dbcontext\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\dbcontext\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|d:\\project_programming\\marcket\\warehousemanager\\warehousemanager\\view\\page\\listproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\page\\listproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|d:\\project_programming\\marcket\\warehousemanager\\warehousemanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\mainmanagerwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\mainmanagerwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\page\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\page\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\mainmanagerwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\mainmanagerwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|d:\\project_programming\\marcket\\warehousemanager\\warehousemanager\\style\\datagrid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\style\\datagrid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\page\\listproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\page\\listproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\mainmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\mainmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\page\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\page\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\page\\financeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\page\\financeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\page\\mainpag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\page\\mainpag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\page\\finance.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -75,16 +15,75 @@
       "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\page\\finance.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\page\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\page\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\page\\listproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\page\\listproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\salesbarchartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\salesbarchartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|d:\\project_programming\\marcket\\warehousemanager\\warehousemanager\\dbcontext\\financedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\dbcontext\\financedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\page\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\page\\products.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\mainmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\mainmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shume\\AppData\\Local\\Temp\\.vsdbgsrc\\1a8a06725b962114965bd76c84cbe99ae0df5a74534edb4af97b4b6220416a32\\ItemCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\mainmanagerwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\mainmanagerwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\mainmanagerwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\mainmanagerwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\model\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\model\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\dbcontext\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\dbcontext\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\page\\listproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\page\\listproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\style\\datagrid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\style\\datagrid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\page\\mainpag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\view\\page\\mainpag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\viewmodel\\salesbarchartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\viewmodel\\salesbarchartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\view\\page\\acceptance.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -101,9 +100,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\model\\categoryproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\model\\categoryproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shume\\AppData\\Local\\Temp\\.vsdbgsrc\\1a8a06725b962114965bd76c84cbe99ae0df5a74534edb4af97b4b6220416a32\\ItemCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C0F45E9-1C52-4376-8667-671B70E1FE30}|WarehouseManager\\WarehouseManager.csproj|D:\\Project_Programming\\Marcket\\WarehouseManager\\warehousemanager\\model\\manufactur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,7 +139,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -151,58 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Employees.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Model\\Employees.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\Model\\Employees.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Model\\Employees.cs",
-              "RelativeToolTip": "WarehouseManager\\Model\\Employees.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:40:56.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListProduct.xaml",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\ListProduct.xaml",
-              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\ListProduct.xaml",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\ListProduct.xaml",
-              "RelativeToolTip": "WarehouseManager\\View\\Page\\ListProduct.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T14:34:07.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainManagerViewModel.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\MainManagerViewModel.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\MainManagerViewModel.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\MainManagerViewModel.cs",
-              "RelativeToolTip": "WarehouseManager\\ViewModel\\MainManagerViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T13:35:32.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FinanceDBContext.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\DBContext\\FinanceDBContext.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\DBContext\\FinanceDBContext.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\DBContext\\FinanceDBContext.cs",
-              "RelativeToolTip": "WarehouseManager\\DBContext\\FinanceDBContext.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T10:34:17.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "ListProductViewModel.cs",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\Page\\ListProductViewModel.cs",
               "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\Page\\ListProductViewModel.cs",
@@ -215,19 +160,108 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Products.xaml",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Products.xaml",
-              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\Products.xaml",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Products.xaml",
-              "RelativeToolTip": "WarehouseManager\\View\\Page\\Products.xaml",
+              "DocumentIndex": 0,
+              "Title": "FinanceViewModel.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\Page\\FinanceViewModel.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\Page\\FinanceViewModel.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\Page\\FinanceViewModel.cs",
+              "RelativeToolTip": "WarehouseManager\\ViewModel\\Page\\FinanceViewModel.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:49:33.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListProduct.xaml",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\ListProduct.xaml",
+              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\ListProduct.xaml",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\ListProduct.xaml",
+              "RelativeToolTip": "WarehouseManager\\View\\Page\\ListProduct.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-16T16:12:31.99Z",
+              "WhenOpened": "2025-05-18T14:34:07.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Model\\Employees.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\Model\\Employees.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Model\\Employees.cs",
+              "RelativeToolTip": "WarehouseManager\\Model\\Employees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:40:56.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainManagerWindows.xaml.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\MainManagerWindows.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\View\\MainManagerWindows.xaml.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\MainManagerWindows.xaml.cs",
+              "RelativeToolTip": "WarehouseManager\\View\\MainManagerWindows.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T13:38:59.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "SalesBarChartViewModel.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\SalesBarChartViewModel.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\SalesBarChartViewModel.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\SalesBarChartViewModel.cs",
+              "RelativeToolTip": "WarehouseManager\\ViewModel\\SalesBarChartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:00:32.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\Page\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\Page\\ProductViewModel.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\Page\\ProductViewModel.cs",
+              "RelativeToolTip": "WarehouseManager\\ViewModel\\Page\\ProductViewModel.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAAI4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:38:41.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Finance.xaml.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Finance.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\Finance.xaml.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Finance.xaml.cs",
+              "RelativeToolTip": "WarehouseManager\\View\\Page\\Finance.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAApwBoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:48:17.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainManagerViewModel.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\MainManagerViewModel.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\MainManagerViewModel.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\MainManagerViewModel.cs",
+              "RelativeToolTip": "WarehouseManager\\ViewModel\\MainManagerViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T13:35:32.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MainManagerWindows.xaml",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\MainManagerWindows.xaml",
               "RelativeDocumentMoniker": "WarehouseManager\\View\\MainManagerWindows.xaml",
@@ -239,120 +273,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainManagerWindows.xaml.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\MainManagerWindows.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\View\\MainManagerWindows.xaml.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\MainManagerWindows.xaml.cs",
-              "RelativeToolTip": "WarehouseManager\\View\\MainManagerWindows.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAArwBoAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "FinanceDBContext.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\DBContext\\FinanceDBContext.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\DBContext\\FinanceDBContext.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\DBContext\\FinanceDBContext.cs",
+              "RelativeToolTip": "WarehouseManager\\DBContext\\FinanceDBContext.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswGkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T13:38:59.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DataGrid.xaml",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Style\\DataGrid.xaml",
-              "RelativeDocumentMoniker": "WarehouseManager\\Style\\DataGrid.xaml",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Style\\DataGrid.xaml",
-              "RelativeToolTip": "WarehouseManager\\Style\\DataGrid.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T14:32:16.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductDBContext.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\DBContext\\ProductDBContext.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\DBContext\\ProductDBContext.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\DBContext\\ProductDBContext.cs",
-              "RelativeToolTip": "WarehouseManager\\DBContext\\ProductDBContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACkAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T13:02:08.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\App.xaml",
-              "RelativeDocumentMoniker": "WarehouseManager\\App.xaml",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\App.xaml",
-              "RelativeToolTip": "WarehouseManager\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T15:04:32.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ListProduct.xaml.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\ListProduct.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\ListProduct.xaml.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\ListProduct.xaml.cs",
-              "RelativeToolTip": "WarehouseManager\\View\\Page\\ListProduct.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T15:22:02.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductViewModel.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\Page\\ProductViewModel.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\Page\\ProductViewModel.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\Page\\ProductViewModel.cs",
-              "RelativeToolTip": "WarehouseManager\\ViewModel\\Page\\ProductViewModel.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAiwI4AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:38:41.94Z",
+              "WhenOpened": "2025-05-16T10:34:17.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Model\\Product.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\Model\\Product.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Model\\Product.cs",
-              "RelativeToolTip": "WarehouseManager\\Model\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ItemCollection.cs",
+              "DocumentMoniker": "C:\\Users\\shume\\AppData\\Local\\Temp\\.vsdbgsrc\\1a8a06725b962114965bd76c84cbe99ae0df5a74534edb4af97b4b6220416a32\\ItemCollection.cs",
+              "ToolTip": "C:\\Users\\shume\\AppData\\Local\\Temp\\.vsdbgsrc\\1a8a06725b962114965bd76c84cbe99ae0df5a74534edb4af97b4b6220416a32\\ItemCollection.cs",
+              "ViewState": "AgIAAKcGAAAAAAAAAAAWwLYGAAADAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T18:20:40.027Z",
+              "WhenOpened": "2025-05-13T15:02:07.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FinanceViewModel.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\Page\\FinanceViewModel.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\Page\\FinanceViewModel.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\Page\\FinanceViewModel.cs",
-              "RelativeToolTip": "WarehouseManager\\ViewModel\\Page\\FinanceViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:49:33.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "MainPag.xaml.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\MainPag.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\MainPag.xaml.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\MainPag.xaml.cs",
-              "RelativeToolTip": "WarehouseManager\\View\\Page\\MainPag.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T18:06:19.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WarehouseManager\\View\\MainWindow.xaml.cs",
@@ -364,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "MainPag.xaml",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\MainPag.xaml",
               "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\MainPag.xaml",
@@ -376,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\MainViewModel.cs",
@@ -388,42 +333,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Finance.xaml.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Finance.xaml.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\Finance.xaml.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Finance.xaml.cs",
-              "RelativeToolTip": "WarehouseManager\\View\\Page\\Finance.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAApwBoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T15:48:17.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SalesBarChartViewModel.cs",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\SalesBarChartViewModel.cs",
-              "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\SalesBarChartViewModel.cs",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\SalesBarChartViewModel.cs",
-              "RelativeToolTip": "WarehouseManager\\ViewModel\\SalesBarChartViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T17:00:32.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Finance.xaml",
-              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Finance.xaml",
-              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\Finance.xaml",
-              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Finance.xaml",
-              "RelativeToolTip": "WarehouseManager\\View\\Page\\Finance.xaml",
+              "DocumentIndex": 7,
+              "Title": "Products.xaml",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Products.xaml",
+              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\Products.xaml",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Products.xaml",
+              "RelativeToolTip": "WarehouseManager\\View\\Page\\Products.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-17T10:30:30.172Z"
+              "WhenOpened": "2025-04-16T16:12:31.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "DataGrid.xaml",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Style\\DataGrid.xaml",
+              "RelativeDocumentMoniker": "WarehouseManager\\Style\\DataGrid.xaml",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Style\\DataGrid.xaml",
+              "RelativeToolTip": "WarehouseManager\\Style\\DataGrid.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T14:32:16.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductDBContext.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\DBContext\\ProductDBContext.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\DBContext\\ProductDBContext.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\DBContext\\ProductDBContext.cs",
+              "RelativeToolTip": "WarehouseManager\\DBContext\\ProductDBContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T13:02:08.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ListProduct.xaml.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\ListProduct.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\ListProduct.xaml.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\ListProduct.xaml.cs",
+              "RelativeToolTip": "WarehouseManager\\View\\Page\\ListProduct.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T15:22:02.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\Model\\Product.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Model\\Product.cs",
+              "RelativeToolTip": "WarehouseManager\\Model\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:20:40.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainPag.xaml.cs",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\MainPag.xaml.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\MainPag.xaml.cs",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\MainPag.xaml.cs",
+              "RelativeToolTip": "WarehouseManager\\View\\Page\\MainPag.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:06:19.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "App.config",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\App.config",
               "RelativeDocumentMoniker": "WarehouseManager\\App.config",
@@ -431,23 +412,11 @@
               "RelativeToolTip": "WarehouseManager\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-16T15:59:01.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T15:59:01.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ItemCollection.cs",
-              "DocumentMoniker": "C:\\Users\\shume\\AppData\\Local\\Temp\\.vsdbgsrc\\1a8a06725b962114965bd76c84cbe99ae0df5a74534edb4af97b4b6220416a32\\ItemCollection.cs",
-              "ToolTip": "C:\\Users\\shume\\AppData\\Local\\Temp\\.vsdbgsrc\\1a8a06725b962114965bd76c84cbe99ae0df5a74534edb4af97b4b6220416a32\\ItemCollection.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
-              "ViewState": "AgIAAKYGAAAAAAAAAAAIwLYGAAADAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T15:02:07.735Z",
-              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\ViewModel\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "WarehouseManager\\ViewModel\\ViewModelBase.cs",
@@ -506,19 +475,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WarehouseManager\\View\\MainWindow.xaml",
               "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\MainWindow.xaml",
               "RelativeToolTip": "WarehouseManager\\View\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T10:39:57.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T10:39:57.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Manufactur.cs",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Model\\Manufactur.cs",
               "RelativeDocumentMoniker": "WarehouseManager\\Model\\Manufactur.cs",
@@ -530,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Page.cs",
               "DocumentMoniker": "C:\\Users\\shume\\AppData\\Local\\Temp\\.vsdbgsrc\\608907eb47065711a13fb853333ec8952b81d2ea770fb765dc4348993ae67675\\Page.cs",
               "ToolTip": "C:\\Users\\shume\\AppData\\Local\\Temp\\.vsdbgsrc\\608907eb47065711a13fb853333ec8952b81d2ea770fb765dc4348993ae67675\\Page.cs",
@@ -540,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\shume\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
               "ToolTip": "C:\\Users\\shume\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
@@ -550,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "ReplayCommand.cs",
               "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\Command\\ReplayCommand.cs",
               "RelativeDocumentMoniker": "WarehouseManager\\Command\\ReplayCommand.cs",
@@ -559,6 +527,39 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T13:36:55.287Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "e953cf6e-e492-4724-a2c7-302b98e638eb",
+        "Display": 1,
+        "X": 586,
+        "Y": 61,
+        "Width": 1620,
+        "Height": 777,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Finance.xaml",
+              "DocumentMoniker": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Finance.xaml",
+              "RelativeDocumentMoniker": "WarehouseManager\\View\\Page\\Finance.xaml",
+              "ToolTip": "D:\\Project_Programming\\Marcket\\WarehouseManager\\WarehouseManager\\View\\Page\\Finance.xaml",
+              "RelativeToolTip": "WarehouseManager\\View\\Page\\Finance.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-17T10:30:30.172Z",
+              "EditorCaption": ""
             }
           ]
         }
