@@ -227,7 +227,6 @@ D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\App.g.cs
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\WarehouseManager_MarkupCompile.cache
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\WarehouseManager_MarkupCompile.lref
-D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\App.baml
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\ListProduct.baml
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\MainPag.baml
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Products.baml
@@ -244,3 +243,5 @@ D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Finance.g.cs
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Acceptance.baml
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Finance.baml
+D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\Style\DataGrid.baml
+D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\App.baml

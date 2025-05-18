@@ -15,8 +15,8 @@ namespace WarehouseManager.ViewModel
     internal class MainManagerViewModel : ViewModelBase
     {
 
-        private Brush Blue = (SolidColorBrush)new BrushConverter().ConvertFromString("#5e69ee");
-        private Brush White = (SolidColorBrush)new BrushConverter().ConvertFromString("#eae8f3");
+        private Brush Blue = (SolidColorBrush)new BrushConverter().ConvertFromString("#415a77");
+        private Brush White = (SolidColorBrush)new BrushConverter().ConvertFromString("#778da9");
         // Main
         private Brush _buttonMainBackground;
         public Brush ButtonMainBackground{get { return _buttonMainBackground; }set{ _buttonMainBackground = value;OnPropertyChanged();}}
@@ -81,7 +81,7 @@ namespace WarehouseManager.ViewModel
             ButtonMainBackground = White;
 
             ButtonItogiForeground = Blue;
-            ButtonItogiBackground = (SolidColorBrush)new BrushConverter().ConvertFromString("#F4F4FB");
+            ButtonItogiBackground = White;
 
             ButtonProductForeground = Blue;
             ButtonProductBackground = White;

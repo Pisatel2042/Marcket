@@ -50,7 +50,7 @@ namespace WarehouseManager.ViewModel.Page
 
         public readonly ProductDBContext dBContext;
         #region Color 
-        private Brush Blue = (SolidColorBrush)new BrushConverter().ConvertFromString("#5e69ee");
+        private Brush Blue = (SolidColorBrush)new BrushConverter().ConvertFromString("#D64541");
         private Brush White = (SolidColorBrush)new BrushConverter().ConvertFromString("#F4F4FB");
 
         private Brush _listProduct;
@@ -72,6 +72,7 @@ namespace WarehouseManager.ViewModel.Page
             dBContext = new ProductDBContext(connectionString);
 
             command = new ReplayCommand(Comm, CanCommand);
+            SortProductCommand = new ReplayCommand(Sort, CanSort); 
 
             ListPTextColor = (SolidColorBrush)new BrushConverter().ConvertFromString("#6F7782");
             HistoryTextColor = (SolidColorBrush)new BrushConverter().ConvertFromString("#6F7782");
@@ -79,6 +80,8 @@ namespace WarehouseManager.ViewModel.Page
             EmpList = new ObservableCollection<string>();
             LoadCombobox();
         }
+
+        
 
         #region Методы
         public ObservableCollection<string> EmpList { get; set; }
@@ -128,7 +131,17 @@ namespace WarehouseManager.ViewModel.Page
             }
 
         }
+        
+        public ICommand SortProductCommand {  get; set; }
+        private bool CanSort(object obj)
+        {
+            return true;
+        }
 
+        private void Sort(object obj)
+        {
+           
+        }
         public ICommand command { get; set; }
     }
 }
