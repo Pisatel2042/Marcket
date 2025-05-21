@@ -52,8 +52,8 @@ namespace WarehouseManager.ViewModel.Page
        public void Chart()
         {
 
-            //var purchasesData = ;
-            PurchaseValues = new ChartValues<int>(purchasesData);
+            //var purchasesData = 123 ;
+            //PurchaseValues = new ChartValues<int>(purchasesData);
             YFormatter = value => value.ToString("N0");
             HoursLabels = new string[24];
             for (int i = 0; i < 24; i++)

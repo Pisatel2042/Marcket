@@ -76,8 +76,8 @@
                                 <Button Style="{StaticResource gridEditButton}">
                                     <iconPacks:PackIconMaterial Kind="PencilOffOutline" Style="{StaticResource gridButtonIcon}" />
                                 </Button>
-                                <Button>
-                                    <iconPacks:PackIconMaterial Kind="DeleteAlert" />
+                                <Button Command="{Binding DeleteCommand}">
+                                    <iconPacks:PackIconMaterial Kind="DeleteAlert" Style="{StaticResource gridButtonIcon}" />
                                 </Button>
                             </StackPanel>
                         </DataTemplate>

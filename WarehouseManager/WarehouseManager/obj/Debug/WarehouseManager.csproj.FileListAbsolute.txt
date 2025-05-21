@@ -245,3 +245,5 @@ D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\Finance.baml
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\Style\DataGrid.baml
 D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\App.baml
+D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\DialogBox\ProdcutDeleteWindow.g.cs
+D:\Project_Programming\Marcket\WarehouseManager\WarehouseManager\obj\Debug\View\Page\DialogBox\ProdcutDeleteWindow.baml

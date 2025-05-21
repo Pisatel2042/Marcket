@@ -240,6 +240,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Page\DialogBox\ProdcutDeleteWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Page\Finance.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -276,6 +280,7 @@
     <Compile Include="Model\Manufactur.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\ProductDeliveryHistory.cs" />
+    <Compile Include="ViewModel\DialogBox\ProductDeleteViewModel.cs" />
     <Compile Include="ViewModel\MainManagerViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\Page\FinanceViewModel.cs" />
@@ -284,6 +289,9 @@
     <Compile Include="ViewModel\SalesBarChartViewModel.cs" />
     <Compile Include="View\Page\Acceptance.xaml.cs">
       <DependentUpon>Acceptance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Page\DialogBox\ProdcutDeleteWindow.xaml.cs">
+      <DependentUpon>ProdcutDeleteWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Page\Finance.xaml.cs">
       <DependentUpon>Finance.xaml</DependentUpon>

@@ -134,6 +134,22 @@ namespace WarehouseManager.DBContext
             }
         }
 
+        public void Delete(string id)
+        {
+            using (SqlConnection conn = new SqlConnection(ConnectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand("usp_DeleteProduct", conn))
+                {
+                    SqlParameter IdParam = new SqlParameter("PId", System.Data.SqlDbType.Int);
+                    IdParam.Value = id;
+                    cmd.Parameters.Add(IdParam);
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
         //public ObservableCollection<Product> FilterProduct(string category, string manufactur, string CategoryId)
         //{
         //    //using (SqlConnection conn = new SqlConnection(ConnectionString))
